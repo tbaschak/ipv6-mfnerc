@@ -30,14 +30,14 @@ cleanslides:
 	rm -f $(SLIDEOBJS) 
 
 gh-pages: slides pdf
-	git add ipv6-intro.html ipv6-intro.pdf
+	git add ipv6-mfnerc.html ipv6-mfnerc.pdf
 	git commit -m 'generate latest slides via Makefile'
 	git push -u origin master
 	git checkout gh-pages
-	git checkout master -- ipv6-intro.html
-	git checkout master -- ipv6-intro.pdf
-	cp ipv6-intro.html index.html
-	git add ipv6-intro.html ipv6-intro.pdf index.html
+	git checkout master -- ipv6-mfnerc.html
+	git checkout master -- ipv6-mfnerc.pdf
+	cp ipv6-mfnerc.html index.html
+	git add ipv6-mfnerc.html ipv6-mfnerc.pdf index.html
 	git commit -m 'pull in latest generated slides from master branch'
 	git push -u origin gh-pages
 	git checkout master
