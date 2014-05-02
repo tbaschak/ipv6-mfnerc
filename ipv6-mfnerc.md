@@ -21,7 +21,7 @@
 	*	Video Conferencing services
 *	Internet issues and outages now affect many internal and external staff, and students.
 *	E-mail communications also very important to the organization.
-	*	Spam blacklisting noticed immmediately.
+	*	Example: Spam blacklisting noticed immmediately.
 
 # IPv4 Exhaustion
 
