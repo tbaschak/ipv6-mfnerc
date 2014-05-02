@@ -49,7 +49,10 @@
 <li>Video Conferencing services</li>
 </ul></li>
 <li>Internet issues and outages now affect many internal and external staff, and students.</li>
-<li>E-mail communications also very important.</li>
+<li>E-mail communications also very important to the organization.
+<ul>
+<li>Spam blacklisting noticed immmediately.</li>
+</ul></li>
 </ul>
 </section>
 <section id="ipv4-exhaustion" class="slide level1">
@@ -58,8 +61,10 @@
 <li>IPv4 Exhaustion has been a topic for many years.
 <ul>
 <li>Already a reality in Europe and Asian IP networks.</li>
+<li>ARIN hit 1x aggregate /8 left April 23.</li>
+<li>ARIN was at 2x /8 when we started BGP process in Sept 2013.</li>
 </ul></li>
-<li>There will be a point when no more IPv4 addresses are available.
+<li>There will be a point very soon when no more IPv4 addresses are available.
 <ul>
 <li>Expected to be 2014 or 2015.</li>
 </ul></li>
@@ -74,10 +79,10 @@
 <ul>
 <li>MFNERC has 1x /24 allocated to it from ARIN.
 <ul>
-<li>256 IP addresses (minus subnet overhead)</li>
+<li>256 IP addresses (minus subnetting overhead)</li>
 </ul></li>
 <li>Currently using roughly 40 IP Addresses between Shaw, Commstream, and our BGP.</li>
-<li>More IP Addresses are needed for VC Units, and other new MFNERC Services.
+<li>More IP Addresses will be needed for VC Units, and other new MFNERC Services.
 <ul>
 <li>These all require Public IPs.</li>
 </ul></li>
@@ -86,7 +91,7 @@
 <section id="solution-ipv6" class="slide level1">
 <h1>Solution: IPv6</h1>
 <ul>
-<li>Base IPv6 specs defined in 1998.</li>
+<li>Base IPv6 specs defined in 1998, 15+ years ago now.</li>
 <li>Much larger address space:
 <ul>
 <li>IP version 4:
@@ -112,15 +117,15 @@
 <ul>
 <li>Risks of Inaction:
 <ul>
-<li>Inability to connect to new IPv6 subscribers and content</li>
-<li>Falling behind the curve</li>
-<li>Increased network complexity with more NAT</li>
+<li>Inability to connect to new IPv6 subscribers (students) and content</li>
+<li>Optics: Falling behind the curve</li>
+<li>Increased MFNERC network complexity with more NAT</li>
 </ul></li>
 <li>Risks of Action:
 <ul>
-<li>New unknown security risks</li>
+<li>New unknown security risks with new unknown transport protocol</li>
 <li>Introducing new protocol to network</li>
-<li>v4/v6 feature parity not entirely there</li>
+<li>v4/v6 feature parity not entirely there, some things won’t be possible at this time</li>
 </ul></li>
 </ul>
 </section>
@@ -133,8 +138,10 @@
 <li>OSs:
 <ul>
 <li>Windows 2008 R2: IPv6 ready</li>
+<li>Windows 2012: IPv6 ready</li>
 <li>Windows 7 SP1: IPv6 ready</li>
-<li>Win XP: Being phased out rapidly</li>
+<li>Windows 8: IPv6 ready</li>
+<li>Win XP: Being phased out rapidly within MFNERC already</li>
 </ul></li>
 <li>PBX: NOT IPv6 ready</li>
 <li>Phones: NOT IPv6 ready</li>
