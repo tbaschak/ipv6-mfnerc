@@ -20,13 +20,16 @@
 	*	MFNEDU.org email
 	*	Video Conferencing services
 *	Internet issues and outages now affect many internal and external staff, and students.
-*	E-mail communications also very important.
+*	E-mail communications also very important to the organization.
+	*	Spam blacklisting noticed immmediately.
 
 # IPv4 Exhaustion
 
 *	IPv4 Exhaustion has been a topic for many years.
 	*	Already a reality in Europe and Asian IP networks.
-*	There will be a point when no more IPv4 addresses are available.
+	*	ARIN hit 1x aggregate /8 left April 23.
+	*	ARIN was at 2x /8 when we started BGP process in Sept 2013.
+*	There will be a point very soon when no more IPv4 addresses are available.
 	*	Expected to be 2014 or 2015.
 *	IPv6 Planned, Tested, and Ready to roll much better place to be than caught with pants down
 	*	Big Bang implementations risky and costly
@@ -34,14 +37,14 @@
 # Org IP Needs
 
 *	MFNERC has 1x /24 allocated to it from ARIN.
-	*	256 IP addresses (minus subnet overhead)
+	*	256 IP addresses (minus subnetting overhead)
 *	Currently using roughly 40 IP Addresses between Shaw, Commstream, and our BGP.
-*	More IP Addresses are needed for VC Units, and other new MFNERC Services.
+*	More IP Addresses will be needed for VC Units, and other new MFNERC Services.
 	*	These all require Public IPs.
 
 # Solution: IPv6
 
-*	Base IPv6 specs defined in 1998.
+*	Base IPv6 specs defined in 1998, 15+ years ago now.
 *	Much larger address space:
 	*	IP version 4:
 		*	32 bits
@@ -58,13 +61,13 @@
 # Risks
 
 *	Risks of Inaction:
-	*	Inability to connect to new IPv6 subscribers and content
-	*	Falling behind the curve
-	*	Increased network complexity with more NAT
+	*	Inability to connect to new IPv6 subscribers (students) and content
+	*	Optics: Falling behind the curve
+	*	Increased MFNERC network complexity with more NAT
 *	Risks of Action:
-	*	New unknown security risks
+	*	New unknown security risks with new unknown transport protocol
 	*	Introducing new protocol to network
-	*	v4/v6 feature parity not entirely there
+	*	v4/v6 feature parity not entirely there, some things won't be possible at this time
 
 # Deployment Costs
 
@@ -73,8 +76,10 @@
 *	Firewalls: Cisco ASA: IPv6 ready, Watchguard: IPv6 ready
 *	OSs:
 	*	Windows 2008 R2: IPv6 ready
+	*	Windows 2012: IPv6 ready
 	*	Windows 7 SP1: IPv6 ready
-	*	Win XP: Being phased out rapidly
+	*	Windows 8: IPv6 ready
+	*	Win XP: Being phased out rapidly within MFNERC already
 *	PBX: NOT IPv6 ready
 *	Phones: NOT IPv6 ready
 *	Address Space: $500 one time to ARIN, $100/yr to maintain
