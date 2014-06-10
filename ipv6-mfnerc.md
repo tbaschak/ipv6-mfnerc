@@ -18,7 +18,7 @@
 *	MFNERC is a Service Provider:
 	*	School Information System
 	*	Wapaskwa Virtual Collegiate
-	*	MFNEDU.org email
+	*	MFNEDU.org school email
 	*	Video Conferencing services
 *	Internet issues and outages now affect many internal and external staff, and students.
 *	E-mail communications also very important to the organization.
@@ -57,7 +57,7 @@
 		*	ex: 2604:4280:d00d:202:8d45:516d:c5e0:ec67
 		*	Smallest ARIN allocation: /48
 		*	Enough for 65536 /64 Networks
-		*	LAN Subject Size: /64
+		*	LAN Subnet Size: /64
 
 # Risks
 
