@@ -19,7 +19,7 @@ slides:
 #	pandoc --self-contained -s -S -i -t slidy --mathjax $(SRCS) -o $(SLIDEOBJS)   ## nice and simple
 
 #	pandoc --self-contained -s -S -i -t revealjs --mathjax $(SRCS) -o $(SLIDEOBJS)
-	pandoc -V theme=default -s -S -t revealjs --mathjax $(SRCS) -o $(SLIDEOBJS)
+	pandoc -V theme=default -s -S -t revealjs --mathjax -V revealjs-url:https://secure.ciscodude.net/vendor/reveal.js $(SRCS) -o $(SLIDEOBJS)
 
 clean: cleanpdf cleanslides
 
